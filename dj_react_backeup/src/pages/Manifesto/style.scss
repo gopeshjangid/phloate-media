@@ -1,0 +1,36 @@
+.page-container .page-content {
+    margin: 0 auto;
+    text-align: left;
+    line-height: 22px;
+}
+.menifesto_title{
+	text-align: left;
+	padding: 0px 0px 30px 0px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.bottom_line{
+border-bottom:1px solid;
+}
+.bottom_line::before {
+    content: "";
+    width: 30px;
+    height: 12px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: -6px;
+}
+.bottom_line {
+    border-bottom: 1px solid;
+    position: relative;
+    margin-top: 40px;
+	width:40%;
+}
+
+@media(max-width:767px)
+{
+.bottom_line {
+    width: 70%;
+  }
+}

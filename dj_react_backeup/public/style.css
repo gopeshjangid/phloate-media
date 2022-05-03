@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Segoe Script';
+  src: local('Segoe Script'), url(../fonts/segoesc.ttf) format('truetype');
+}
+
+@font-face { 
+font-family: wf_fb7d11df307547f1882f87013; 
+src: url("https://static.wixstatic.com/ufonts/e885dc_fb7d11df307547f1882f8701324e9465/woff2/file.woff2") format("woff2"), 
+url("https://static.wixstatic.com/ufonts/e885dc_fb7d11df307547f1882f8701324e9465/woff/file.woff") format("woff"), 
+url("https://static.wixstatic.com/ufonts/e885dc_fb7d11df307547f1882f8701324e9465/ttf/file.ttf") format("ttf"); }

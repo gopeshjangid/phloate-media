@@ -1,0 +1,27 @@
+.form_input {
+  background-color: #000000;
+  border-radius: 0px;
+  padding: 8px;
+  height: 50px;
+}
+
+.file_input {
+  background-color: #000000;
+  border-radius: 0px;
+  padding: 8px;
+}
+
+input[type="file"]:disabled {
+  background-color: black;
+  color: #000000;
+}
+
+.contestsubmitbtn {
+  background-color: #4c566a;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 0px;
+}
+.contestsubmitbtn:hover {
+  background-color: #265a88;
+}

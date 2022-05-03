@@ -1,0 +1,72 @@
+{
+  "name": "react-lab",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@manaflair/redux-batch": "^1.0.0",
+    "@nivo/bar": "^0.62.0",
+    "@nivo/line": "^0.62.0",
+    "@nivo/pie": "^0.62.0",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@stripe/stripe-js": "^1.13.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "apexcharts": "^3.20.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "formik": "^2.2.6",
+    "mdbreact": "^5.0.1",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-fade": "^1.1.1",
+    "react-fade-in": "^2.0.1",
+    "react-icons": "^3.10.0",
+    "react-iframe": "^1.8.0",
+    "react-infinite-scroller": "^1.2.4",
+    "react-notifications": "^1.7.2",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-router-transition": "^2.1.0",
+    "react-scripts": "^3.4.3",
+    "react-tabs": "^3.1.1",
+    "react-transition-group": "^4.4.1",
+    "react-twitter-follow-button": "^0.1.0",
+    "react-vis": "^1.11.7",
+    "recharts": "^1.8.5",
+    "redux-persist": "^6.0.0",
+    "victory": "^35.0.8",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "watch": "react-scripts watch",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}

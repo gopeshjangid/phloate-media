@@ -1,0 +1,66 @@
+@import 'assets/scss/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+body {
+background:#000;
+color:#FFFFFF;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.page-content p{
+font-size: 16px;
+}
+.page-container.container{
+max-width:980px;
+font-weight: 300;
+
+}
+.page-container{
+padding-top:50px;
+margin-bottom:80px;
+    position: relative;
+
+
+}
+  
+.nav-link{
+padding-right: 10px;
+padding-left: 10px;
+margin-left: 4px;
+margin-right: 4px;
+margin-top: 4px;
+margin-bottom: 4px;
+padding-bottom: 10px;
+padding-top: 10px;
+background: rgba(117, 117, 117, 0);
+border: 1px solid rgba(255, 255, 255, 0);
+text-transform:Uppercase;
+color: rgba(255, 255, 255, 0.52) !important;
+padding-left: 16px !important;
+padding-right: 16px !important;
+}
+
+.navbar.navbar-expand-lg  #basic-navbar-nav{
+  width: 100% !important;
+ 
+}
+.navbar-nav {
+	margin: 0px auto !important;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	padding-top: 12px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.52);
+	border-top: 0px solid rgba(255, 255, 255, 0.52);
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark.sticky-top {
+    background-color: transparent !important;
+}
+
+.nav-item-list{
+	width: 100%;
+    justify-content: space-around;
+	padding-top: 0px !important;
+}
+

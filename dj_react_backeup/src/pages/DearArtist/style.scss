@@ -1,0 +1,35 @@
+
+.faq_title{
+text-align:left;
+padding:10px 0px;
+
+}
+.vr_line::before {
+    content: "";
+    width: 6px;
+    height: 16px;
+    background-color: #fff;
+    position: absolute;
+    left: -2px;
+}
+.vr_line {
+    height: 40%;
+    width: 1px;
+    background-color: #ccc;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 55px;
+}
+@media(max-width:1199px)
+{
+.dearart{
+padding-left:10px;
+}
+
+.vr_line {
+    left: 10px;
+   
+}
+
+}
